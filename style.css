@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+
+/* Style for each grid square div */
+.gridSquare {
+    background-color: white;
+    border: black 1px solid;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+        
+}
+
+/* This makes our row align horizontally */
+.gridRow {
+    display: inline-block;
+}
+
+.filled {
+    background-color: black;
+}
